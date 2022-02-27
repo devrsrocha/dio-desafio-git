@@ -1,0 +1,54 @@
+##### Comandos Básicos #####
+- git init
+Inicializa um repositório dentro do diretório
+
+- git clone
+Clona um repositório
+
+- git add .
+Adiciona todos os arquivos para o commit
+
+- git add <<nome do arquivo>>
+Adiciona o arquivo especificado para o commit
+
+- git commit -m 'comentário'
+Executa o commit com o comentário
+
+- git push
+Envia as alterações presentes na pasta local para o repositório
+
+- git push origin <<nome da branch>>
+Envia uma nova branch para o repositório remoto
+
+- git pull
+Puxa as alterações para o repositório local
+
+- git merge
+Mescla as alterações feitas por usuários diferentes
+
+- git status
+retorna o status atual do repositório
+
+- git log
+retorna o histórico de alterações do repositório
+
+- git branch <<nome da branch>>
+cria uma nova ramificação para o repositório, por exemplo uma versão com nova funcionalidade
+
+- git checkout -b <<nome da branch>>
+cria uma nova branch e já troca a branch como ativa
+
+- λ git branch -D <<nome da branch>>
+deleta a branch indicada
+
+- git remote add origin https://github.com/devrsrocha/projeto_curso_git.git
+Vincula o repositório local com o repositório no github
+
+- git push -u origin master
+Envia os arquivos do diretório local para o repositório
+
+- git remote rm origin
+Desvincula o repositório com o provedor (p.e github) e libera para a criação de uma nova origem
+
+- git merge <<nome da branch>>
+Mescla alterações de uma branch a uma branch ativa
